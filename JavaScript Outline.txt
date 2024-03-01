@@ -1,0 +1,86 @@
+1)  ==>Variables
+	-LET
+	-VAR
+	-CONST
+------------------------
+2)  ==>Data types
+	1)PRIMITIVE
+	  -Number
+	  -Boolean
+	  -String
+	 2)COMPOSITE
+	   -Arrays
+	   -Objects
+	 3)SPECIAL
+	   -Null
+	   -Undefined
+------------------------------------------
+3)  ==>Operators[]
+	
+	1)Arithemetic Operators (+, - , * , / , [%](modulas) )
+
+	2)Assignment Operator(= ,+= ,-= ,*= ,/= ,%=)
+
+	3)Comparison operator(== ,=== ,!= ,!== ,> ,< ,>= ,<=)
+
+	4)Logical Operator([&&]-AND ,[||]-OR ,[!]-NOT)
+
+	5)Bitwise Operator(& ,| ,)
+
+	6)Unary Operator (--,++,!)
+
+	7)Conditional(Ternary) Operator(condition?:expression_1 : expression_2)
+
+	8)Icreament / Decreament Operators
+           =>Pre-Increament(++a)
+	   =>Post-Increament(a++)
+	        --------
+           =>Pre-Decreament(--a)
+	   =>Post-Decreament(a--)
+	
+------------------------------------------
+4) ==>Control flow
+5) ==>Functions
+6) ==>Parameterised Functions and Return Value
+7) ==>Arrays
+	=> Array Methods
+	1)Push() - Adds an element at end of an array
+	2)Pop() - Del the last element of an array
+	3)Shift() - del the first element of an array
+	4)Unshift() - Adds an elements begin of array
+	5)Concat()- Combines two or more arrays
+	6)Join() - Creates a new string by concatinating all the elements of an array and returns a string by a specified seperator.
+	7)Slice() - Returns a shallow copy of a portion of an array into a new array
+	8)Splice() - Changes the content of an array by removing, replacing, or adding elements.
+	9)indexOf() - Returns the first index at which given element can be found in an array or -1 if it is not present 
+	10)forEach() - It applies a provided function for each elements in  array
+
+00)==>String Methods
+	->Split() :- method is a built-in function for 		strings that splits a string into an 
+        	array of substrings based on a 			specified delimiter.
+	--------------------------------------
+	->Trim() :- is used to remove whitespace 		characters (spaces, tabs, or newlines)
+         	from both ends of a string.
+	--------------------------------------
+	->substring() :- is used to extract a portion 	of a string. It takes two parameters: the 	starting index (inclusive) and the ending 	index (exclusive) of the substring.
+	---------------------------------------
+	->charAt() :- The charAt method in JavaScript   	is a string method used to retrieve the 	character at a specified index within a 	string.
+
+	
+
+8) ==>Objects
+9) ==>Loops
+	1)FOR LOOP
+	2)FOR OF LOOP 
+	3)FOR IN LOOP 
+	4)WHILE LOOP
+	5)DO WHILE LOOP
+10) ==>Arrow Functions
+11) ==>Variable Scope
+12) ==>DOM
+13) ==>CallBacks
+14) ==>Promises
+15) ==>Async & Await
+16) ==>Event Handling
+17) ==>Error Handling
+18) ==>ES6 Features
