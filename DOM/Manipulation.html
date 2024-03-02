@@ -1,77 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM Practice</title>
+    <html lang="en">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Your Custom CSS --> 
-    <style>
-        body {
-            padding: 20px;
-        }
-    </style>
-</head>
-<body>
-    <!-- <div id="name">
-        vamshi
-        <h1>vamshi</h1>
-    </div> -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM Practice</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
-    <div class="container" id="Name">
-        Vamshi
-        <h1>DOM Practice</h1>
-        
-        <div class="row">
-            <div class="col-md-6">
-                <h2>DOM Elements</h2>
-                <ul id="elementList">
-                    <li>Element 1</li>
-                    <li>Element 2</li>
-                    <li>Element 3</li>
-                </ul>
-                
-                <button id="addElementBtn" class="btn btn-primary">Add Element</button>
-                <button id="removeElementBtn" class="btn btn-danger">Remove Element</button>
-            </div>
 
-            <div class="col-md-6">
-                <h2>DOM Events</h2>
-                <p id="eventParagraph">Click a button to change this paragraph.</p>
-                
-                <button id="changeTextBtn" class="btn btn-success">Change Text</button>
+        <style>
+            body {
+                padding: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container" id="Name" class="name">
+            Vamshi
+            <h1>DOM Practice</h1>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>DOM Elements</h2>
+                    <ul id="elementList">
+                        <li class=" Dom-2 text-danger">Element 1</li>
+                        <li class=" Dom-2 text-primary">Element 2</li>
+                        <li class=" Dom-2 text-success">Element 3</li>
+                    </ul>
+
+                    <button id="addElementBtn" class="btn btn-primary">Add Element</button>
+                    <button id="removeElementBtn" class="btn btn-danger">Remove Element</button>
+                </div>
+
+                <div class="col-md-6">
+                    <h2>DOM Events</h2>
+                    <p id="eventParagraph">Click a button to change this paragraph.</p>
+
+                    <button id="changeTextBtn" class="btn btn-success">Change Text</button>
+                </div>
             </div>
         </div>
-    </div>
+        <!-- Your Custom JavaScript -->
+        <script>
 
-    <!-- Bootstrap JS and Popper.js (for Bootstrap features) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            // const Dom = document.getElementById("Name")
+            // Dom.innerHTML = "<h3>Dom Getelements By id</h3>"
+            // Dom.innerText = "Vamshi Marepu"
 
-    <!-- Your Custom JavaScript -->
-    <script>
+            // var x = document.getElementsByClassName("Dom-2")
+            // // x.innerText = "vamshi"
+            // for (let i = 0; i < x.length; i++  ) {
+            //     x[i].innerText = "Changed values"
+            // }
 
-        let DOM = document.getElementById("Name")
-        //DOM.innerText = "Vamshi Marepu"
-       // DOM.innerHTML = "<h4>Vamshi Marepu</h4> "
+            // var y = document.getElementsByTagName("h2")
+            // for (i = 0; i < y.length; i++) {
+            //     y[i].innerText = "Changed Value"
+            // }
+
+            //QuerySelectors
+            // var z = document.querySelector(".Dom-2")
+            // z.innerHTML = "<h6>ChangedValue<h6>"
+
+            //selects all types by css selectors
+            // var z2 = document.querySelector("#Name")
+            // z2.innerHTML = "<h1>Vamshi</h1>"
+
+            //QuerySelectorAll
+
+            // var q = document.querySelectorAll("h2")
+            // for (i = 0; i < q.length; i++) {
+            //     q[i].innerText = "Vamshi Marepu"
+
+            // }
 
 
-       
-    </script>
+
+
+
+
+
+            console.log(q)
+
+
+
+
+
+
+
+
+
+        </script>
+    </body>
+
+    </html>
+
 </body>
-</html>
 
-</body>
 </html>
