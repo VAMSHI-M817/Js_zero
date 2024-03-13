@@ -118,7 +118,7 @@
         // 9) indexOf() METHOD :-  Returns the first index at which given element 
         //can be found in an array or -1 if it is not present 
 
-        let indexEmp = ["indexOf () METHOD","Name", "Role", "Salary", "Timings", "Age"]
+        let indexEmp = ["indexOf () METHOD", "Name", "Role", "Salary", "Timings", "Age"]
 
         // //finding the index of an element in array
 
@@ -132,25 +132,61 @@
 
         // 10) forEach() METHOD :- It executes a provided function once for each element in the array 
 
-        let Score = [1,2,3,4,5]
+        let Score = [1, 2, 3, 4, 5];
 
-        Score.forEach(function(Cricket){
+        Score.forEach(function (Cricket) {
             document.write(Cricket * 10 + "<br>")
         })
 
-        let even = [10,20,30,40,45,55,65]
+        let even = [10, 20, 30, 40, 45, 55, 65]
 
-        even.forEach(function(findeven){
-           if(findeven % 2 == 0){
-            document.write(findeven + " : is even number"+ "<br>")
-           }
-           else if(findeven % 2 !== 0){
-            document.write(findeven + ": is Odd number" + "<hr>")
-           }
-           else{
-            document.write("Invalid")
-           }
+        even.forEach(function (findeven) {
+            if (findeven % 2 == 0) {
+                document.write(findeven + " : is even number" + "<br>")
+            }
+            else if (findeven % 2 !== 0) {
+                document.write(findeven + ": is Odd number" + "<hr>")
+            }
+            else {
+                document.write("Invalid")
+            }
         })
+
+        //array literal
+        // var arr = ["vamshi", 12, true, 4.5, 'dev',]
+        // document.write(arr)
+
+        //array object
+        // var vm = new array()
+
+        //Iterating array 
+        //using array literal
+
+        const arr = [10, 12, 13, 14, 15];
+        for (i = 0; i < arr.length; i++) {
+            document.write(`${arr[i]}<hr>`)
+
+        }
+
+
+
+        //for of 
+        let chintu = [10, 12, 13, 14, 15, 16];
+        for(let m of chintu){
+            document.write(m + "<br>");
+        }
+
+        //array object
+        var good = new user();
+        good[0] = "vamshi";
+        good[1] = "role";
+        good[2] = "salary";
+        document.write(good)
+
+
+
+
+
 
 
     </script>

@@ -22,16 +22,16 @@
 
 
         //Automation of data using for loop
-        var amount = 100;
-        var interest = 2;
-        var days = 30;
+        // var amount = 100;
+        // var interest = 2;
+        // var days = 30;
 
-        for (i = 1; i <= days; i++) {
-            if (i % 4 === 0) {
-                amount += interest
-            }
-            document.write("Your FD interest amount for: " +i+"th day"+ amount + "<br>")
-        }
+        // for (i = 1; i <= days; i++) {
+        //     if (i % 4 === 0) {
+        //         amount += interest
+        //     }
+        //     document.write("Your FD interest amount for: " +i+"th day"+ amount + "<br>")
+        // }
 
 
 
@@ -60,6 +60,15 @@
         //        }
 
         //ex-3
+
+        //nested for loop
+
+        for (i = 0; i <= 4; i++) {
+            for(j=0;j<=5;j++){
+                document.write('*')
+            }
+            document.write("*"+"<br>")
+        }
 
 
 

@@ -10,17 +10,21 @@
 <body>
     <script>
 
-        let x = 5
-        let y = 5
-        let z = x + y
-
-        console.log(z)
-
-        setTimeout(()=>{
-            console.log("Hello World")
-        },2000);
 
 
+        function user(name, callback) {
+            console.log("hi" + ' ' + name)
+            callback();
+
+        }
+
+        function callme() {
+            console.log("Hi Im a call back function")
+        }
+        function callme2() {
+            console.log("Hi Im a call back function 2")
+        }
+        user("Vamshi", callme);
 
 
 
