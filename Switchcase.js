@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        //javascript Switch case Method
+//javascript Switch case Method
 var grade = prompt("Enter Grade");
 var result;
 
@@ -22,7 +13,4 @@ switch (grade) {
         break;
     default: result = "Invalid Grade"
 }
-document.write(result);s
-    </script>
-</body>
-</html>
+document.write(result);

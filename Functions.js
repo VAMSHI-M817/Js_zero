@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-    <script>
-        //Functions
+   //Functions
         //Scopes are 3 types
         //1)Global scope
         //2)Function scope
@@ -111,11 +99,3 @@
             document.write(a % b)
         }
         x(10, 50);
-
-
-
-
-    </script>
-</body>
-
-</html>

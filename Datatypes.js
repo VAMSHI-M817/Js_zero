@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        // Please Remove Comment for this file index.html
+   // Please Remove Comment for this file index.html
 
 //PRIMITIVE DATATYPES:
 //1)Number 
@@ -69,7 +60,3 @@ console.log(d, typeof d)
 //undefined datatype
 var e;
 console.log(e, typeof e)
-
-    </script>
-</body>
-</html>

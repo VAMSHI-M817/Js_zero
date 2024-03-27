@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <script>
-
-        //String Methods
+//String Methods
 
         //Split() Method :-  method is a built-in function for strings that splits a string into an 
         //array of substrings based on a specified delimiter. The delimiter is a character or a 
@@ -77,14 +65,3 @@
         const Lower = hero.toLowerCase();
 
         document.write(Lower)
-
-
-
-
-
-
-
-    </script>
-</body>
-
-</html>
