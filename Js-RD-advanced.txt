@@ -36,8 +36,8 @@ Understanding and debugging common errors.
 Introduction to Asynchronous JavaScript:
 setTimeout and setInterval.
 Callback functions.
-Intermediate Level:
 
+Intermediate Level:
 ES6+ Features:
 Arrow functions.
 Template literals.

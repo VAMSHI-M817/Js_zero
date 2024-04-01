@@ -99,3 +99,13 @@
             document.write(a % b)
         }
         x(10, 50);
+
+
+
+        function user(name,Salary){
+            console.log("User Name is"+" "+name  )
+            console.log("Users salary is :" + " " + Salary )
+        }
+        user("vamshi","50")
+
+
