@@ -75,16 +75,34 @@
 //     }
 // })
 
-//getElementsByClassName()
-const listItems2 = document.getElementsByClassName('item')
-// console.log(listItems2[2].innerText)
+// //getElementsByClassName()
+// const listItems2 = document.getElementsByClassName('item')
+// // console.log(listItems2[2].innerText)
+// //This method is type of restricted we will get elements by class name
 
-const listItemsArray = Array.from(listItems2)
+// const listItemsArray = Array.from(listItems2)
 
-listItemsArray.forEach((items,index) => {
-    console.log(items.innerText)
-})
+// listItemsArray.forEach((items, index) => {
+//     console.log(items.innerText)
+// })
+// console.log('------')
 
+    // //getElementsByTagName
+    // const listItems3 = document.getElementsByTagName('li')
+    // // console.log(listItems3)
+
+    // const listItems3Array = Array.from(listItems3)
+    // console.log(listItems3Array)
+
+    // listItems3Array.forEach((item ,index) => {
+    //     item.style.color = 'blue'
+
+    //     if(index === 0){
+    //         item.style.color = 'yellow'
+    //     }
+    // })
+
+//Traversing the DOM elements 
 
 
 
