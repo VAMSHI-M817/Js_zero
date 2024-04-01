@@ -11,6 +11,7 @@ output = parent.children[1].nodeName
 
 parent.children[0].innerText = 'Vamshi'
 parent.children[0].style.color = 'red'
+parent.children[1].style.color - 'blue'
 
 
 
