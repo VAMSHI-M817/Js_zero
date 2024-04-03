@@ -1,5 +1,5 @@
    //Functions
-        //Scopes are 3 types
+        //Scopes are 3 types, They are
         //1)Global scope
         //2)Function scope
         //3)Block scope

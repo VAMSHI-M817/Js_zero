@@ -24,12 +24,8 @@ function creatListItem(item) { //created an item in function parameter
 
   const button = createButton('remove-item btn-link text-red')
 
-
-  //Here we are inserting icon into button
-  button.appendChild(icon)
-
-//Here we are inserting button into li to create an item
-li.appendChild(button)
+  //Here we are inserting button into li to create an item
+  li.appendChild(button)
 
 
   //Here we're selecting the "ul" class and appending the li into ul
@@ -38,6 +34,7 @@ li.appendChild(button)
 
 //Passing parameter to it
 creatListItem('Vamshi')
+creatListItem('Normal Juices  ')
 
 //Refactor to Multiple Functions
 
@@ -49,7 +46,7 @@ function createButton(classes) {
 
   const icon = createIcon('fa-solid fa-xmark')
   button.appendChild(icon)
-  
+
   return button
 }
 
@@ -63,7 +60,71 @@ function createIcon(classes) {
   return icon
 }
 
+//The multiple methods for inserting elements into dom are
+
+//insertAdjacentElement Example
+
+function insertElement(element) {
+
+  //get element
+  const filter = document.querySelector('.filter')
+
+  //create text
+  const h1 = document.createElement('h1')
+  h1.textContent = element
+
+  //inserting element
+  filter.insertAdjacentElement("beforebegin", h1)
+
+}
+insertElement('Items Not Available')
+//function calling
 
 
 
-createListItem('Mango')
+//insertAdjacentText Example
+
+function insertText() {
+  const item = document.querySelector('li:first-child')
+
+  item.insertAdjacentText('afterend', 'This Item is so tasty')
+
+}
+insertText();
+
+//insertAdjacentHtml Example
+
+function insertHtml() {
+  const clearBtn = document.querySelector('#clear')
+
+  clearBtn.insertAdjacentHTML('afterend', '<button id="clear" class="btn-clear">Clear afterend  </button>')
+}
+insertHtml()
+
+//insertBefore Example
+
+function insertBeforeItem() {
+  const ul = document.querySelector('ul')
+
+  const li = document.createElement('li')
+  li.textContent = 'insertBeore'
+
+  const thirdItem = document.querySelector('li:nth-child(3)')
+
+  ul.insertBefore(li, thirdItem)
+
+}
+
+
+
+
+// // beforebegin
+//   <p>
+// // afterbegin
+//   the...
+// // beforeend
+//   <p/>
+// // afterend  
+
+
+
