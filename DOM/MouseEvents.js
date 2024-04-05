@@ -36,9 +36,15 @@ const mouseOut = () => {
 const OnDrag = () => {
     console.log('On Drag Activated')
 }
+const dragEnd = () => {
+    console.log('drag end event')
+}
+
+//For dragEnd Event "dragend"
+img.addEventListener('dragend',dragEnd)
 
 //For OnDrag "ondrag"
-img.addEventListener('ondrag',OnDrag)
+img.addEventListener('ondrag', OnDrag)
 
 //For MouseOver "mouseup"
 img.addEventListener('mouseover', mouseOver)
