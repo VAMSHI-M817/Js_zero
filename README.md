@@ -6,5 +6,5 @@ Welcome to my JavaScript learning journey! 🚀 This repository is my playground
 
 📁 **Code Snippets**: Dive into the code snippets folder to explore bite-sized examples and experiments covering various JavaScript concepts, from basic syntax to advanced topics like closures and promises.
 
-📘 **Notes and Documentation**: Check out the notes folder where I jot down explanations, tips, and tricks I've learned along the way. It's a treasure trove of knowledge to aid in your JavaScript Journey ......
+📘 **Notes and Documentation**: Check out the notes folder where I jot down explanations, tips, and tricks I've learned along the way. It's a treasure trove of knowledge to aid in your JavaScript Journey ...
 
