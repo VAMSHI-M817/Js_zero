@@ -28,7 +28,7 @@ Events:
 Understanding event handling.
 Attaching event listeners.
 Common events like click, mouseover, etc.
-
+    
 Error Handling:
 Handling errors with try...catch.
 Understanding and debugging common errors.
