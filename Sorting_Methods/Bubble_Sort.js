@@ -21,4 +21,5 @@ function bubbleSort(array) {
 const arr = [5, 4, 3, 2, 1]
 console.log("Unsorted", arr)
 bubbleSort(arr)
+//array sorted
 console.log(arr) 
