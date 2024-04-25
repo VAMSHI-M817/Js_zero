@@ -7,7 +7,7 @@ Learn about JavaScript's history and its importance in modern web development.
 Basic Syntax and Concepts:
 Variables, data types, and operators.
 Control flow statements: if, else, switch.
-Loops: for, while..
+Loops: for, while.....
 
 Functions:
 Declaring functions.
