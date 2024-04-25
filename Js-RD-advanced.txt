@@ -72,7 +72,7 @@ Execution context and scope.
 Event bubbling and capturing.
 
 Functional Programming in JavaScript:
-Higher-order functions.
+Higher-order functions.....
 Map, filter, and reduce.
 Immutability and pure functions.
 
