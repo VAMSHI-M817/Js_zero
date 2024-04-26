@@ -7,7 +7,7 @@ Learn about JavaScript's history and its importance in modern web development.
 Basic Syntax and Concepts:
 Variables, data types, and operators.
 Control flow statements: if, else, switch.
-Loops: for, while.
+Loops: for, while.....
 
 Functions:
 Declaring functions.
@@ -28,7 +28,7 @@ Events:
 Understanding event handling.
 Attaching event listeners.
 Common events like click, mouseover, etc.
-
+    
 Error Handling:
 Handling errors with try...catch.
 Understanding and debugging common errors.
@@ -72,7 +72,7 @@ Execution context and scope.
 Event bubbling and capturing.
 
 Functional Programming in JavaScript:
-Higher-order functions.
+Higher-order functions.....
 Map, filter, and reduce.
 Immutability and pure functions.
 
