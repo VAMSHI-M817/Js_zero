@@ -25,7 +25,8 @@ for (let n = 1; n <= rows; n++) {
     // Add a new line character after contents of each line
     pattern = pattern + "\n";
 }
-console.log(pattern);
+console.log(pattern)
+
 
 
 
