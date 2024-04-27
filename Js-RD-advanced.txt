@@ -41,6 +41,7 @@ Callback functions.
 Intermediate Level:
 ------------------
 ES6+ Features:
+------------------
 Arrow functions.
 Template literals.
 Destructuring assignment.
