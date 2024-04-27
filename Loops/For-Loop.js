@@ -21,9 +21,10 @@ for (let n = 1; n <= rows; n++) {
     // inner loop runs for n
     for (let num = 1; num <= n; num++) {
         pattern = pattern + num;
-    }   
+    }
     // Add a new line character after contents of each line
     pattern = pattern + "\n";
+                
 }
 console.log(pattern)
 
