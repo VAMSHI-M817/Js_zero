@@ -12,7 +12,7 @@ function get() {
 get()
 
 
-var u =20
+var u = 20
 
 
 if (u === undefined) {
