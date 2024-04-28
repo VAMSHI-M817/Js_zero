@@ -78,18 +78,56 @@
 // set()
 
 const xl = 109
-function outest(b) {
+function outest(a) {
   const x = 1000
-  function outer() {
+  function outer(b) {
     let y = 100
-    function inner() {
-
-      console.log(xl, y, b)
+    function inner(c) {
+      var z = 10
+      console.log(a, b, c, xl, x, y, z)
     }
-    inner()
-    return inner;
-  }
 
-  outer()
+    inner("shreya")
+  }
+  outer("Priya")
 }
+const z = 888
 outest("vamshi")
+
+
+
+//Advantages of Closures is Data Hiding && Encapsulation
+function counter() {
+
+  //Declaring the counter
+  var count = 0
+  //Hiding the Increament of count 
+  function increamentCounter() {
+    count++;
+    console.log(count)
+  }
+  return increamentCounter
+}
+var Count = counter()
+Count()
+Count()
+Count()
+
+
+//Function Constructor in javascript
+function Counter() {
+  var count = 0
+  this.increamentCounter = function () {
+    count++
+    console.log(count)
+  }
+  this.decreamentCounter = function () {
+    count--
+    console.log(count)
+  }
+}
+var counter1 = new Counter()
+counter1.increamentCounter()
+counter1.increamentCounter()
+counter1.increamentCounter()
+counter1.decreamentCounter()
