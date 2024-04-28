@@ -47,5 +47,5 @@ x()
 boy(goal)
 
 function goal() {
-    var goal = 'coder'
+    var goal = 'coderss'
 }
