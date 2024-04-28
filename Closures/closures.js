@@ -131,3 +131,13 @@ counter1.increamentCounter()
 counter1.increamentCounter()
 counter1.increamentCounter()
 counter1.decreamentCounter()
+
+function gar() {
+  let marks1 = 10, marks2 = 100
+  return function bage() {
+    console.log(marks1)
+  }
+  
+}
+var y = gar();
+y();
