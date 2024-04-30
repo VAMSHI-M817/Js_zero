@@ -60,3 +60,10 @@ const calculate = function (arr, logic) {
 console.log(calculate(radius, area));
 //Using map method
 console.log(radius.map(area));
+
+console.log(b);
+
+let a = 20;
+
+var b = 20;
+const c = 20;
