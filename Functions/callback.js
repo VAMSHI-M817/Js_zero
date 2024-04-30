@@ -40,4 +40,7 @@ function createEventhandler() {
 }
 createEventhandler();
 
+function createEventhandler2() {
+  fetch()
+}
 //Callback Hell
