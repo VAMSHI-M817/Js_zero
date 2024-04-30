@@ -6,6 +6,7 @@ Understand what JavaScript is and its role in web development.
 Learn about JavaScript's history and its importance in modern web development.
 
 Basic Syntax and Concepts:
+-------------------------   
 Variables, data types, and operators.
 Control flow statements: if, else, switch.
 Loops: for, while.....
@@ -21,6 +22,7 @@ Objects and properties.
 JSON (JavaScript Object Notation).
 
 DOM Manipulation:
+-----------------
 Introduction to the Document Object Model.
 Selecting elements.
 Modifying HTML/CSS with JavaScript.
@@ -59,17 +61,18 @@ Import/export syntax.
 Organizing code into modules.
 
 Intermediate DOM Manipulation:
+------------------------------
 Creating and removing elements.
 Manipulating styles and classes.
 
 Intermediate Asynchronous JavaScript:
+------------------------------------
 Understanding callbacks, promises, and async/await.
 Fetching data from APIs.
 Error handling in asynchronous code.
 
-Advanced Level:
----------------
-Advanced JavaScript Concepts:
+Advanced Level / Advanced JavaScript Concepts:
+----------------------------------------------
 Closures.
 Prototypes and inheritance.
 Execution context and scope.
