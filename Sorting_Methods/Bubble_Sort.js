@@ -1,6 +1,6 @@
 
 
-
+debugger
 function bubbleSort(array) {
     const n = array.length
 
