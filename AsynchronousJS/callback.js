@@ -41,6 +41,19 @@ function createEventhandler() {
 createEventhandler();
 
 function createEventhandler2() {
-  fetch()
+  fetch();
 }
-//Callback Hell
+
+function print(callbacks1, callbacks2) {
+  console.log("This is 1");
+  callbacks1();
+  callbacks2();
+}
+print(
+  function () {
+    console.log("This is 2");
+  },
+  function () {
+    console.log("This is 3");
+  }
+);
