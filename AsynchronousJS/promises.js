@@ -83,3 +83,57 @@ getUsers();
 //   })
 //   //we can also use arrow function
 //   .then((paymentInfo) => updateWalletbalance(paymentInfo));
+
+//Creating a Promise 
+const cart = ["shoes", "pant", "watch"]
+
+
+function validateCart() {
+  return true
+}
+
+function proceedToPayment(orderId) {
+  return new Promise(function (resolve, reject) {
+    resolve("Payment was successful")
+  })
+}
+function showOrderSummary(paymentInfo) {
+  return new Promise(function (resolve, reject) {
+    resolve("This is your orderSummary")
+  })
+}
+
+
+function createOrder(cart) {
+  const prom = new Promise(function (resolve, reject) {
+    //createOrder
+    //validateCart
+    //orderId
+    if (!validateCart(cart)) {
+      const err = new Error('Cart validation was failed')
+      reject(err)
+    }
+    //Logic for createOrder
+    const orderId = '12345'
+    if (orderId) {
+      setTimeout(() => {
+        resolve(orderId)
+      }, 3000);
+    }
+  })
+  return prom
+}
+const promise2 = createOrder(cart)
+
+promise2.then(function (orderId) {
+  console.log(orderId)
+  return orderId
+}).then(function (orderId) {
+  return proceedToPayment(orderId)
+}).then(function (paymentInfo) {
+  console.log(paymentInfo)
+})
+  .catch(function (err) {
+    console.log(err.message)
+  })
+
