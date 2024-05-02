@@ -42,7 +42,7 @@ function step2() {
 // step2();
 
 function step1(value, callback) {
-  callback(value + 10, false)
+  callback(value + 10, false);
 }
 
 step1(10, function (result1, error) {
@@ -51,19 +51,17 @@ step1(10, function (result1, error) {
       if (!error) {
         step3(result2, function (result3, error) {
           if (!error) {
-            console.log("Result:" + result3)
+            console.log("Result:" + result3);
           }
-        })
+        });
       }
-    })
+    });
   }
-})
-
-
+});
 
 function step2(value, callback) {
-  callback(value + 10, false)
+  callback(value + 10, false);
 }
 function step3(value, callback) {
-  callback(value + 10, false)
+  callback(value + 10, false);
 }
