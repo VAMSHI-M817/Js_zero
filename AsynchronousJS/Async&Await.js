@@ -55,3 +55,18 @@ const naam = (name) => {
   return console.log("My name is" + " " + name);
 };
 naam("vamshi");
+
+
+
+const FAKE_API = 'https://jsonplaceholder.typicode.com/users/5'
+
+async function gettingData() {
+  try {
+    const fetchedData = await fetch(FAKE_API)
+    const response = await fetchedData.json()
+    console.log(response)
+  } catch (error) {
+    console.log("Error while fetching the data")
+  }
+}
+gettingData()
