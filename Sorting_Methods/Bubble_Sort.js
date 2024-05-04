@@ -1,11 +1,12 @@
 
 
-debugger
 function bubbleSort(array) {
     const n = array.length
 
     for (let i = 0; i < n; i++) {
+        // console.log(arr[i])
         for (let j = 0; j < n; j++) {
+            console.log(arr[j]);
             if (arr[j] > arr[j + 1]) {
                 //swap
                 const temp = arr[j]
