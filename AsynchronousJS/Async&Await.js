@@ -69,4 +69,6 @@ async function gettingData() {
     console.log("Error while fetching the data")
   }
 }
-gettingData()
+setTimeout(() => {
+  gettingData()
+}, 5000)
