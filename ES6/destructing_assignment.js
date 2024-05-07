@@ -45,4 +45,4 @@ function des1() {
   console.log(`This is my role ${role}`);
   console.log(`This is my job ${job}`);
 }
-des1(colors);
+des1(colors)
