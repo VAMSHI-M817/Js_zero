@@ -1,28 +1,9 @@
+//THESE ARE THE TYPES OF CREATING THE OBJECTS
 
+//1.OBJECT LITERALS
+let user = { name: "vamshi", role: "dev" };
+console.log(user);
+console.log(typeof user);
 
-const user = {
-    userName: "vamshi",
-    userId: "12945",
-    userRole: "Developer",
-    userSalary: "80000",
-
-    printingData: function () {
-        console.log(this.userName)
-    },
-
-    printingData2() {
-        console.log("second method :" + this.userName)
-    }
-}
-
-const employee = {
-    calctax: function () {
-        console.log("Tax rate is 10%")
-    }
-}
-
-const vamshi = { 
-    salary : 50000
-}
-
-vamshi.__proto__ = employee
+//2.OBJECT.CREATE({})
+let mobile = Object.create({});
