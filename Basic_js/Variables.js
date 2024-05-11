@@ -10,7 +10,7 @@
         console.log(typeof Local_variable);
 
         let ud;
-        console.log(ud)
+        console.log(ud)            
 
         //global Variable
         var global_variable = "hero"
