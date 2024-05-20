@@ -20,6 +20,7 @@ class Mobile {
         }
     }
 }
+
 const Redmi = new Mobile("Redmi note 7 Pro", "Black", 20)
 console.log(Redmi.name);
 console.log(Redmi.color);
