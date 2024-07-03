@@ -29,13 +29,6 @@ const findNum4 = (a, b, c) => {
 };
 console.log("Largest Num:", findNum4(20, 21, 22));
 
-//adding all numbers
-const arr1 = [1, 2, 3];
-const add = (data) => {
-  for (let i = 0; i <= data.length; i++) {
-    let count = 0;
-    return (count += data[i]);
-  }
-};
-const added = add(arr1);
-console.log(added);
+
+
+
