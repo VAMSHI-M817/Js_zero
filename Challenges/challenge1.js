@@ -48,15 +48,13 @@ const users = [
   },
   {
     id: 3,
-    name: "vamshi",
-    email: "vamshi@gmail",
+    name: "shiva",
+    email: "shiva@gmail",
+  },
+  {
+    id: 4,
+    name: "raju",
+    email: "raju@gmail",
   },
 ];
-const findUsers = users.find((eachUser) => {
-  return eachUser.id === 1;
-});
-console.log(findUsers);
 
-let user = ["vamshimarepu","adfjdfasf","shiva"];
-const slicing = user.splice(0,2);
-console.log(slicing);
